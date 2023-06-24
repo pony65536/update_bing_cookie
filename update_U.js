@@ -5,6 +5,9 @@ let cookie = [];
 fs.readFile("full_cookie.json", (err, data) => {
     if (err) throw err;
     cookie = JSON.parse(data);
+    cookie.map((item) => {
+        delete item.sameSite;
+    });
 });
 
 (async () => {
