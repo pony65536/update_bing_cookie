@@ -1,4 +1,4 @@
-# Script for auto update the new bing cookie
+# Script for auto updating the new bing cookie
 
 ## Install
 
